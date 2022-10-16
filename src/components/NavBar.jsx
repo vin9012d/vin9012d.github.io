@@ -19,6 +19,12 @@ const NavBar = () => {
       id: 3,
       link: "projects",
     },
+
+    
+    {
+      id: 6,
+      link: "tech stack",
+    },
     {
       id: 4,
       link: "skills",

@@ -1,7 +1,8 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+
+import { BsFillPersonLinesFill,BsTelephoneOutbound } from "react-icons/bs";
 import resume from "../assets/resume.pdf"
 const SocialLinks = () => {
   const links = [
@@ -42,6 +43,15 @@ const SocialLinks = () => {
       ),
       href: resume,
       download: true,
+    },
+    {
+      id: 5,
+      child: (
+        <> +91 98247 73706<BsTelephoneOutbound size={28} />
+        </>
+      ),
+      href: 'tel:9824773706',
+    
     }
    
   ];

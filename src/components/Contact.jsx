@@ -12,7 +12,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="contact w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white lg:pt-32 contact1"
+      className="contact w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white contact1"
     >
        <Fade top duration={1000} distance="40px">  
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">

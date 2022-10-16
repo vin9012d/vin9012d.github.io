@@ -22,7 +22,7 @@ const Home = () => {
             src={HeroImage}
             alt="profile"
           
-            className="rounded-full mx-auto w-2/3 md:w-full"
+            className="rounded-full mx-auto w-3/4 md:w-full"
           />
         </div>
         <div className="flex flex-col justify-center h-full  w-2/3">

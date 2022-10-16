@@ -52,17 +52,28 @@ body {
   margin-top: 8%;
 }
 
-.experience {
+/* .experience1 {
   margin-top: 12%;
+} */
+.experience1{
+  padding-top: 100px;
 }
-
 
 .nav-links {
   text-underline-offset: 1rem;  
 }
 
 .contact1{
-  padding-bottom: 60px;
+  padding-bottom: 80px;
+  padding-top: -20px; 
+}
+.workskill1{
+  padding-top: 50px;
+  margin-top: 80px;
+  padding-bottom: 40px;
+}
+.calender1{
+  padding-top: 30px;
 }
 @media screen and (max-width: 900px) {
 
@@ -76,7 +87,7 @@ body {
   .contact1,
   .portfolio1,
   .experience1,
-  .home1 {
+  .home1,.calender1,.workskill1{
     text-align: center;
     height: 100%;
   }

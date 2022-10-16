@@ -4,7 +4,7 @@ import lifestore from "../assets/portfolio/lifestore.png";
 import mynthresa from "../assets/portfolio/mynthresa.png";
 import buffer from "../assets/portfolio/buffer.png"
 import sudoku from "../assets/portfolio/sudoku.png"
-import tictactoe from "../assets/portfolio/tictactoe.png"
+import harvest from "../assets/portfolio/harvest.png"
 
 import { Fade } from "react-reveal"
 import { FaEye,FaGithub} from "react-icons/fa";
@@ -12,6 +12,20 @@ const Portfolio = () => {
   const portfolios = [
 
   
+    {
+
+      id: 1,
+      src: harvest,
+      link: 'https://harvestappclone.netlify.app/',
+      repo: 'https://github.com/vin9012d/Harvest_clone',
+      text:"Harvest site clone",
+      skills: " Mongodb, Nodejs, Express, Mongoose, React, Redux, Javascript, Chakra UI",
+      desc:`Harvest is a web app for time tracking and projects management. 
+      Created Full Stack App to handle all the details about the project,employee time tracking...`,
+      title:"Harvest Clone"
+    
+
+  },
     {
 
       id: 1,
@@ -64,16 +78,6 @@ const Portfolio = () => {
       skills: "React,Javascript,HTML,CSS",
       desc: "Sudoku consists of a 9 × 9 grid with numbers appearing in some of the squares. The object of the puzzle is to fill the remaining squares, using all the numbers 1–9 exactly once in each row, column, and the subgrid of 3 ×  3. ",
       title:"Sudoku"
-    },
-    {
-      id: 6,
-      src: tictactoe,
-      link: 'https://vinod-tictactoe.netlify.app/',
-      repo: 'https://github.com/vin9012d/tic_toc_toe',
-      text: "Mynthresa site clone",
-      skills: "React,Javascript,HTML,CSS",
-      desc: "Tic-tac-toe is a game in which two players take turns in drawing either an `O' or  `X' in 1 square of a grid consisting of 9 squares. The winner is the first who to get three of the same symbols in a row.  ",
-      title:"Tic Tac Toe"
     }
 
 
@@ -82,7 +86,7 @@ const Portfolio = () => {
   return (
     <div
       name="projects"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white portfolio1 projects "
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white pb-16 portfolio1 projects "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">

@@ -7,6 +7,8 @@ import Portfolio from "./components/Portfolio";
 import SocialLinks from "./components/SocialLinks";
 import Footer from "./components/Footer"
 import Skills from "./components/Skills";
+import Workskills from "./components/Workskills";
+import { Calender } from "./components/Calender";
 
 
 function App() {
@@ -17,7 +19,8 @@ function App() {
       <About />
       <Portfolio />
       <Skills />
-      
+      <Workskills />
+      <Calender />
       <Contact />
       <Footer />
       <SocialLinks />
